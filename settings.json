@@ -1,0 +1,187 @@
+{
+  "vim.digraphs": {
+    "R!": [
+      "🚀",
+      [
+        "0xD83D",
+        "0xDE80"
+      ]
+    ]
+  },
+  "workbench.fontAliasing": true,
+  "vim.useCtrlKeys": false,
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive
+  "editor.fontFamily": "Fira Code iScript, monospace, italic", // Operator Mono Medium
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.3,
+  "files.trimTrailingWhitespace": true,
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 4,
+  "breadcrumbs.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
+  // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
+  // Mac/Linux: file:///Users/YOUR-PC-USERNAME/.vscodestyles.css
+  // Windows: file:///C:/Users/YOUR-PC-USERNAME/.vscodestyles.css
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/yashtripathi/.vscode/styles.css"
+  ],
+  "editor.renderWhitespace": "selection",
+  "editor.suggestSelection": "first",
+  "editor.fontLigatures": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "java.home": "C:\\Program Files\\Java\\jdk1.8.0_211",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#F44336",
+    "list.activeSelectionForeground": "#F44336",
+    "list.inactiveSelectionForeground": "#F44336",
+    "list.highlightForeground": "#F44336",
+    "scrollbarSlider.activeBackground": "#F4433650",
+    "editorSuggestWidget.highlightForeground": "#F44336",
+    "textLink.foreground": "#F44336",
+    "progressBar.background": "#F44336",
+    "pickerGroup.foreground": "#F44336",
+    "tab.activeBorder": "#F44336",
+    "notificationLink.foreground": "#F44336",
+    "editorWidget.resizeBorder": "#F44336",
+    "editorWidget.border": "#F44336",
+    "settings.modifiedItemIndicator": "#F44336",
+    "settings.headerForeground": "#F44336",
+    "panelTitle.activeBorder": "#F44336",
+    "breadcrumb.activeSelectionForeground": "#F44336",
+    "menu.selectionForeground": "#F44336",
+    "menubar.selectionForeground": "#F44336",
+    "editor.findMatchBorder": "#F44336",
+    "selection.background": "#F4433640"
+  },
+  "materialTheme.accent": "Tomato",
+  "kite.showWelcomeNotificationOnStartup": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": true,
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "editor.renderControlCharacters": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "cloudcode.gke": {
+    "projectIds": [
+      "pyt-try"
+    ]
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "cSpell.userWords": [
+    "jsonify"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.jediEnabled": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}
